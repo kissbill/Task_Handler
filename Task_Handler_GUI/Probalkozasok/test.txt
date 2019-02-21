@@ -1,0 +1,74 @@
+Hetfo	Kedd Szerda	Csutortok	Pentek	CANape CANoe ECUtest Git	Polarion 	ToDo Automat
+Review 	Offset	ModeManager	Defect
+
+
+
+-------------------------
+01 | Csutortok
+-------------------------
+--> #ToDo #Defect
+		-
+		+
+
+--> #ToDo #Automat #UDS
+	-UDS
+		-emberektol infot kiszedni
+		-kimasolni kikrol , mirol beszel Thor
+		-
+	-FLASH 
+		-baic view-ban vannak cuccok rola
+		cmd, read me . pdf . pkg
+		+
+-------------------------
+02 | Pentek
+-------------------------
+--> #ToDo #Polarion
+		-kedvencek hozzaadasa
+		-thorsten minta
+				-issuek pl
+				+
+--> #ToDo #Git
+		-reggel automatan fusson le
+		+
+--> #ToDo #Review
+		https://ecarpolarion.gplm.siemens.com/polarion/#/project/INV_VER/workitem?id=INV_VER-291
+		https://ecarpolarion.gplm.siemens.com/polarion/#/project/INV_VER/wiki/57%20Guidelines/Review%20Process%20of%20SW%20Test%20Cases
+			-SW_TestCase_Specification_Checklist ezen kell vegig menni
+			- live doksi :
+				-https://ecarpolarion.gplm.siemens.com/polarion/#/project/VW_MEB_Inverter/wiki/30 Verification and Validation/SWTS_BasicFunctionality
+					-es erre vannak ralinkelve a kesz review-zet TC-k [lego kocka]
+						https://ecarpolarion.gplm.siemens.com/polarion/#/project/VW_MEB_Inverter/workitem?id=VWMEB-Inv-48177
+						+
+--> #ToDo #ModeManager #Offset
+	-hogy megy ? 
+		https://ecarpolarion.gplm.siemens.com/polarion/#/project/VW_MEB_Inverter/workitem?id=VWMEB-Inv-47474
+			-nightly ki keri ? megkapja ? allit valamit a tc ?
+			+
+-------------------------
+05 | Hetfo
+-------------------------
+--> #Defect
+	-XCP CAN melyiken megy
+		- CANape , nem jelenik meg a log, hol van ?
+			-nem tudja : tib, berc
+			-Kiss Zsolt hangouts waiting
+		-dbc file beillesztese es meres
+			ezzel meg lehet nezni alt+enter 
+			properties
+			+			
+--> #Automat
+	-idopont : 13:00
+	-elkezdtem kiszedni az infokat
+		tulsagosan valtozatos ahhoz Eszter egyik UDS-e ahhoz 
+		hogy automatzani lehessen
+		+
+--> #Nightly #P215 #P220_09 #D210_rb0010
+	-SPO\ASC : alap TC elvaras SAFE_ST_ASC
+			-MINUS -> SAFE_ST_SPO varok el , TC Failed
+			-PLUS -> SAFE_ST_ASC varok el, TC Passed
+	-Nachlauf mode
+			-MINUS Nachlauf_mode varok el , TC Failed
+					Preapere_SLEEP_Mode
+			-PLUS Nachlauf_mode varok el , TC Passed
+					-Nachlauf_mode is jon
+				+
